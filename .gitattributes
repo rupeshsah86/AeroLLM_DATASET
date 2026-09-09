@@ -1,0 +1,4 @@
+asrs_reports/train/data-00000-of-00001.arrow filter=lfs diff=lfs merge=lfs -text
+processed/faa_sdr_combined.csv filter=lfs diff=lfs merge=lfs -text
+processed/faa_sdr_clean.csv filter=lfs diff=lfs merge=lfs -text
+processed/asrs_train.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,4 @@
+filename,source,document_type,split,number_of_rows,file_size_mb,date_collected,format,notes
+asrs_train.csv,NASA ASRS (HuggingFace - elihoole/asrs-aviation-reports),Incident/Maintenance Narrative Reports,train,38655,101.46,2026-09-08,CSV,Main free-text column: Report 1_Narrative
+asrs_validation.csv,NASA ASRS (HuggingFace - elihoole/asrs-aviation-reports),Incident/Maintenance Narrative Reports,validation,4295,11.2,2026-09-08,CSV,Main free-text column: Report 1_Narrative
+asrs_test.csv,NASA ASRS (HuggingFace - elihoole/asrs-aviation-reports),Incident/Maintenance Narrative Reports,test,4773,12.43,2026-09-08,CSV,Main free-text column: Report 1_Narrative

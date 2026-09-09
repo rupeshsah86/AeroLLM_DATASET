@@ -1,0 +1,498 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "asrs-aviation-reports",
+  "dataset_size": 147044766,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/elihoole/asrs-aviation-reports@f1e681e92cddae20d01fc498d685f1cf6a052d34/asrs-aviation-reports-train.jsonl": {
+      "num_bytes": 270248264,
+      "checksum": null
+    },
+    "hf://datasets/elihoole/asrs-aviation-reports@f1e681e92cddae20d01fc498d685f1cf6a052d34/asrs-aviation-reports-validation.jsonl": {
+      "num_bytes": 29941842,
+      "checksum": null
+    },
+    "hf://datasets/elihoole/asrs-aviation-reports@f1e681e92cddae20d01fc498d685f1cf6a052d34/asrs-aviation-reports-test.jsonl": {
+      "num_bytes": 33260860,
+      "checksum": null
+    }
+  },
+  "download_size": 333450966,
+  "features": {
+    "acn_num_ACN": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Time_Date": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Time.1_Local Time Of Day": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place_Locale Reference": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place.1_State Reference": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place.2_Relative Position.Angle.Radial": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place.3_Relative Position.Distance.Nautical Miles": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place.4_Altitude.AGL.Single Value": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Place.5_Altitude.MSL.Single Value": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment_Flight Conditions": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment.1_Weather Elements / Visibility": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment.2_Work Environment Factor": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment.3_Light": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment.4_Ceiling": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Environment.5_RVR.Single Value": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1_ATC / Advisory": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.1_Aircraft Operator": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.2_Make Model Name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.3_Aircraft Zone": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.4_Crew Size": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.5_Operating Under FAR Part": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.6_Flight Plan": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.7_Mission": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.8_Nav In Use": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.9_Flight Phase": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.10_Route In Use": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.11_Airspace": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.12_Maintenance Status.Maintenance Deferred": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.13_Maintenance Status.Records Complete": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.14_Maintenance Status.Released For Service": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.15_Maintenance Status.Required / Correct Doc On Board": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.16_Maintenance Status.Maintenance Type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.17_Maintenance Status.Maintenance Items Involved": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.18_Cabin Lighting": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.19_Number Of Seats.Number": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.20_Passengers On Board.Number": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.21_Crew Size Flight Attendant.Number Of Crew": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.22_Airspace Authorization Provider (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.23_Operating Under Waivers / Exemptions / Authorizations (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.24_Waivers / Exemptions / Authorizations (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.25_Airworthiness Certification (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.26_Weight Category (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.27_Configuration (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.28_Flight Operated As (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.29_Flight Operated with Visual Observer (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.30_Control Mode (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.31_Flying In / Near / Over (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.32_Passenger Capable (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.33_Type (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 1.34_Number of UAS Being Controlled (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Component_Aircraft Component": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Component.1_Manufacturer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Component.2_Aircraft Reference": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Component.3_Problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2_ATC / Advisory": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.1_Aircraft Operator": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.2_Make Model Name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.4_Crew Size": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.5_Operating Under FAR Part": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.6_Flight Plan": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.7_Mission": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.8_Nav In Use": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.9_Flight Phase": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.10_Route In Use": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.11_Airspace": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.12_Maintenance Status.Maintenance Deferred": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.14_Maintenance Status.Released For Service": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.16_Maintenance Status.Maintenance Type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.17_Maintenance Status.Maintenance Items Involved": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.23_Operating Under Waivers / Exemptions / Authorizations (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.24_Waivers / Exemptions / Authorizations (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.26_Weight Category (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.27_Configuration (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.28_Flight Operated As (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.31_Flying In / Near / Over (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Aircraft 2.34_Number of UAS Being Controlled (UAS)": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1_Location Of Person": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.1_Location In Aircraft": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.2_Reporter Organization": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.3_Function": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.4_Qualification": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.5_Experience": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.6_Cabin Activity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.7_Human Factors": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.8_Communication Breakdown": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.9_UAS Communication Breakdown": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 1.10_ASRS Report Number.Accession Number": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2_Location Of Person": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.1_Location In Aircraft": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.2_Reporter Organization": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.3_Function": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.4_Qualification": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.5_Experience": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.6_Cabin Activity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.7_Human Factors": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.8_Communication Breakdown": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.9_UAS Communication Breakdown": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Person 2.10_ASRS Report Number.Accession Number": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events_Anomaly": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events.1_Miss Distance": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events.2_Were Passengers Involved In Event": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events.3_Detector": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events.4_When Detected": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Events.5_Result": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Assessments_Contributing Factors / Situations": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Assessments.1_Primary Problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Report 1_Narrative": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Report 1.1_Callback": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Report 2_Narrative": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Report 2.1_Callback": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Report 1.2_Synopsis": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 480495732,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 119261651,
+      "num_examples": 38655,
+      "dataset_name": "asrs-aviation-reports"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 13165507,
+      "num_examples": 4295,
+      "dataset_name": "asrs-aviation-reports"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 14617608,
+      "num_examples": 4773,
+      "dataset_name": "asrs-aviation-reports"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
